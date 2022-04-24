@@ -4,29 +4,33 @@ body {
     background-color: #c2c2c2;
 }
 
-header {
-    width: 800px;
-    height: 180px;
-    background-color: #feffca;
-    padding: 20px;
-    margin: 40px auto 0;
-}
 
 main {
-    width: 560px;
-    height: 560px;
-    margin: -600px 0px 0px 240px;
+    width: 760px;
+    height: 800px;
+    margin: 160px auto;
+    padding: 50px 40px;
     background-color: #9cc0e9;
-    padding: 20px;
-   
 }
 
-section {
-    width: 240px;
-    height: 560px;
-    background-color: #bdd8c1;
-    padding: 20px;
-    margin: 0 0 0 80px;
+.profile-section {
+    /*width: 760px;*/
+    height: 200px;
+    background-color: #fff8be;
+}
+
+.contact-section {
+    width: 200px;
+    height: 600px;
+    /*margin: 0 0 20px 0;*/
+    background-color: #a2e096;
+}
+
+.cv-section {
+    width: 560px;
+    height: 600px;
+    background-color: #ffc06d;
+    margin: -600px 200px;
 }
 
 h1 {
@@ -48,14 +52,7 @@ h1 {
     font-weight: 600;
 }
 
-.profile {
-
-}
-
 .description {
     border-bottom: 2px solid #474747;
 }
 
-.contact-section {
-    /*background-color: #ffffff;
-}
