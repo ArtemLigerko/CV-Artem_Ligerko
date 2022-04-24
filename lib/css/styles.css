@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #474747;
+    background-color: #c2c2c2;
+}
+
+header {
+    width: 800px;
+    height: 180px;
+    background-color: #feffca;
+    padding: 20px;
+}
+
+main {
+    width: 560px;
+    height: 560px;
+    margin: -600px 0px 0px 240px;
+    background-color: #9cc0e9;
+    padding: 20px;
+   
+}
+
+section {
+    width: 240px;
+    height: 560px;
+    /*margin: 0px 0px 0px 0px;*/
+    background-color: #bdd8c1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.first-name {
+    font-size: 28px;
+}
+
+.second-name {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.proffesion {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile {
+
+}
+
+.description {
+    border-bottom: 2px solid #474747;
+}
+
+.contact-section {
+    /*background-color: #ffffff;
+}
