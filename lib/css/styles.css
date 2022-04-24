@@ -9,6 +9,7 @@ header {
     height: 180px;
     background-color: #feffca;
     padding: 20px;
+    margin: 40px auto 0;
 }
 
 main {
@@ -23,9 +24,9 @@ main {
 section {
     width: 240px;
     height: 560px;
-    /*margin: 0px 0px 0px 0px;*/
     background-color: #bdd8c1;
     padding: 20px;
+    margin: 0 0 0 80px;
 }
 
 h1 {
