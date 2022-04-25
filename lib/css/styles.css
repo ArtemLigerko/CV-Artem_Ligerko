@@ -14,24 +14,32 @@ main {
     background-color: #fefeffd7;
 }
 
-header {
-    height: 30mm;
-    
+.header-logo {
+    height: 20mm;
+    padding: 10mm;
+    display: flex;
+}
+
+#profile {
+    padding-left: 10mm;
     border-bottom: 2px solid #474747;
 }
 
 .content-section {
     display: flex;
     height: 267mm;
+    
 }
 
 .contact-section {
     width: 50mm;
+    padding: 10mm;
     border-right: 2px solid #474747;
 }
 
 .cv-section {
     width: 160mm;
+    padding: 10mm;
 }
 
 h1 {
