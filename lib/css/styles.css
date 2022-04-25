@@ -1,36 +1,37 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #474747;
-    background-color: #c2c2c2;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
 }
 
 
 main {
-    width: 760px;
-    height: 800px;
-    margin: 160px auto;
-    padding: 50px 40px;
-    background-color: #9cc0e9;
+    width: 210mm;
+    height: 297mm;
+    margin: 10%;
+    background-color: #fefeffd7;
 }
 
-.profile-section {
-    /*width: 760px;*/
-    height: 200px;
-    background-color: #fff8be;
+header {
+    height: 30mm;
+    
+    border-bottom: 2px solid #474747;
+}
+
+.content-section {
+    display: flex;
+    height: 267mm;
 }
 
 .contact-section {
-    width: 200px;
-    height: 600px;
-    /*margin: 0 0 20px 0;*/
-    background-color: #a2e096;
+    width: 50mm;
+    border-right: 2px solid #474747;
 }
 
 .cv-section {
-    width: 560px;
-    height: 600px;
-    background-color: #ffc06d;
-    margin: -600px 200px;
+    width: 160mm;
 }
 
 h1 {
@@ -52,7 +53,4 @@ h1 {
     font-weight: 600;
 }
 
-.description {
-    border-bottom: 2px solid #474747;
-}
 
