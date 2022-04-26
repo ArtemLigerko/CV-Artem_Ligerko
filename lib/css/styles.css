@@ -14,14 +14,37 @@ main {
     background-color: #fefeffd7;
 }
 
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 4mm;
+}
+
+p {
+    font-size: 12px;
+    padding-bottom: 2mm;
+}
+
+ul {
+    list-style: square;
+    font-size: 12px;
+}
+
+li {
+    padding-bottom: 2mm;
+}
+
+
 .header-logo {
-    height: 20mm;
-    padding: 10mm;
+    height: 40mm;
+    padding: 10mm 10mm 6mm 10mm;
     display: flex;
 }
 
 #profile {
-    padding-left: 10mm;
+    /*padding-left: 10mm;*/
+    padding-bottom: 4mm;
+    margin: 0 10mm 0mm 10mm;
     border-bottom: 2px solid #474747;
 }
 
@@ -42,23 +65,25 @@ main {
     padding: 10mm;
 }
 
-h1 {
-    font-size: 18px;
-    font-weight: bold;
-}
 
 .first-name {
-    font-size: 28px;
+    font-size: 32px;
+    padding-left: 10mm;
+    padding-top: 10mm;
 }
 
 .second-name {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
+    padding-left: 10mm;
+    padding-top: 2mm;
 }
 
 .proffesion {
     font-size: 14px;
     font-weight: 600;
+    padding-left: 10mm;
+    padding-top: 2mm;
 }
 
 
