@@ -23,6 +23,11 @@ h1 {
 p {
     font-size: 12px;
     padding-bottom: 2mm;
+    padding-left: 2mm;
+}
+
+.p2 {
+    font-weight: bold;
 }
 
 ul {
@@ -58,6 +63,14 @@ li {
     width: 50mm;
     padding: 10mm;
     border-right: 2px solid #474747;
+}
+
+.contact-content {
+    display: flex;
+}
+
+.contact-icon {
+    padding-bottom: 2mm;
 }
 
 .cv-section {
