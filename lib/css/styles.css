@@ -55,6 +55,7 @@ li {
     height: 40mm;
     padding: 10mm 10mm 6mm 10mm;
     display: flex;
+    background-color: darkgoldenrod;
 }
 
 #profile {
@@ -92,8 +93,10 @@ li {
 
 .first-name {
     font-size: 32px;
+    letter-spacing: 1mm;
     padding-left: 10mm;
     padding-top: 10mm;
+    background-color: brown;
 }
 
 .second-name {
@@ -101,6 +104,7 @@ li {
     font-weight: 600;
     padding-left: 10mm;
     padding-top: 2mm;
+    background-color: cadetblue;
 }
 
 .proffesion {
@@ -108,6 +112,7 @@ li {
     font-weight: 600;
     padding-left: 10mm;
     padding-top: 2mm;
+    background-color: blueviolet;
 }
 
 .border-bottom {
