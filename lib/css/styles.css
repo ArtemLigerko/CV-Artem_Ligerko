@@ -11,25 +11,28 @@ body {
 
 main {
     margin: 10%;
-    width: 210mm;
-    height: 297mm;
+    /* width: 100%; */
+    /* height: 297mm; */
     background-color: #fffef9;
     border-bottom: 20px solid #474747;
     
 }
 
-h1 {
+h2 {
     font-size: 18px;
     font-weight: bold;
     padding-top: 6mm;
     padding-bottom: 4mm;
 }
 
-h2{
+h3 {
     padding-bottom: 2mm;
     padding-top: 4mm;
     font-size: 16px;
     font-weight: bold;
+}
+
+
 }
 
 p {
@@ -55,16 +58,19 @@ li {
 
 .header-logo {
     height: 40mm;
-    padding: 10mm 10mm 6mm 10mm;
+    margin: 10mm 10mm;
+    /* padding-left: 10mm; */
+    /* padding: 10mm 0mm 6mm 10mm; */
     display: flex;
-    /* background-color: darkgoldenrod; */
+    background-color: darkgoldenrod;
 }
 
 #profile {
-    /*padding-left: 10mm;*/
+    /* padding-left: 10mm; */
     padding-bottom: 4mm;
     margin: 0 10mm 0mm 10mm;
     border-bottom: 2px solid #696969;
+    background-color: aqua;
 }
 
 .content-section {
@@ -90,16 +96,17 @@ li {
 .cv-section {
     width: 160mm;
     padding: 0 10mm 10mm 10mm;
+
 }
 
 
 .first-name {
     font-size: 32px;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     padding-left: 10mm;
-    padding-top: 10mm;
+    /* padding-top: 10mm; */
     text-transform: uppercase;
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 .second-name {
@@ -107,16 +114,16 @@ li {
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 10mm;
-    padding-top: 2mm;
-    /* background-color: cadetblue; */
+    /* padding-top: 2mm; */
+    background-color: cadetblue;
 }
 
 .proffesion {
     font-size: 14px;
     font-weight: 600;
     padding-left: 10mm;
-    padding-top: 2mm;
-    /* background-color: blueviolet; */
+    /* padding-top: 2mm; */
+    background-color: blueviolet;
 }
 
 .border-bottom {
