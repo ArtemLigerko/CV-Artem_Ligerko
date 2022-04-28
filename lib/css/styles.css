@@ -11,8 +11,8 @@ body {
 
 main {
     margin: 10%;
-    /* width: 100%; */
-    /* height: 297mm; */
+    width: 210mm;
+    height: 297mm;
     background-color: #fffef9;
     border-bottom: 20px solid #474747;
     
@@ -62,7 +62,7 @@ li {
 }
 
 #profile {
-    padding-bottom: 10mm;
+    padding-bottom: 4mm;
     margin: 0 10mm 0mm 10mm;
     line-height: 120%;
     border-bottom: 2px solid #696969;
