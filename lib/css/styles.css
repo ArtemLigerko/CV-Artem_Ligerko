@@ -76,14 +76,27 @@ img {
 
 .content-section {
     display: flex;
-    height: 207mm;
     width: 90%;
-    /* column-count: 2; */
+}
+
+@media screen and (max-width: 530px) {
+    .content-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-section {
+        width: 90%;
+        padding: 0 4% 4% 4%;
+    }
+    .cv-section {
+  
+    }
+    
 }
 
 .contact-section {
-    width: 50mm;
-    padding: 0 10mm 10mm 10mm;
+    width: 40%;
+    padding: 0 4% 4% 4%;
     border-right: 2px solid #474747;
 }
 
@@ -96,8 +109,8 @@ img {
 }
 
 .cv-section {
-    width: 160mm;
-    padding: 0 10mm 10mm 10mm;
+    width: calc(100%-40%);
+    padding: 0 4% 4% 4%;
 
 }
 
