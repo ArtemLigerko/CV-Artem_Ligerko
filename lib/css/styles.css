@@ -50,10 +50,13 @@ li {
 
 
 .header-logo {
-    height: 50mm;
+    /* height: 100%; */
     margin: 4% 4% 0mm 4%;
     display: flex;
     /* background-color: darkgoldenrod; */
+}
+.profile-foto {
+    width: 20%;
 }
 .name {
     display: flex;
@@ -137,6 +140,28 @@ img {
 }
 
 @media screen and (max-width: 700px) {
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-foto {
+        width: 50%;
+        min-width: 200px;
+    }
+    .name {
+        display: flex;
+        padding: 1em 0 0 0;
+    }
+    .first-name {
+        text-align: center;
+    }
+    .second-name {
+        text-align: center;
+    }
+    .proffesion {
+        text-align: center;
+    }
     .content-section {
         display: flex;
         flex-direction: column;
